@@ -1,0 +1,22 @@
+print("Welcome, young wizard or witch, to the Hogmarts Academy of reject Warlocks!")
+student_name = input("What is your name,  student? ")
+fav_subject = input("What is your favorite magic school subject  ")
+print(f"\nnAh, {student_name}, a pleasure to meet you! Your first day at the academy is full of wonder.")
+print("As you explore the sprawling corridors, you stumble upon a hidden door, slightly ajar.")
+print("Peeking inside, you see a fork in a dimly lit passage.")
+print("To your left, a soft glow emanates from what looks like a shimmering potion lab, bubbling with colorful liquids.")
+print(f"To your right, the passage leads into a dusty library, filled with countless ancient scrolls, perhaps even some about {fav_subject}!")
+print("\nWhat do you choose to do?")
+print("A. Explore the shimmering potion lab.")
+print("B. Investigate the dusty library with ancient scrolls.")
+user_choice = input("Enter 'A' or 'B': ").upper() 
+print("\n--- Your Magical Journey Continues! ---")
+if user_choice == 'A':
+    print(f"You carefully step into the potion lab, {student_name}. Glass vials of every shape and size sparkle around you.")
+    print("You find a recipe for a 'Not A Faliure' – a bubbly, bright blue liquid! With it, you can finally go to Hogwarts.")
+    print("What a fantastic start to your magical education!")
+elif user_choice == 'B':
+    print(f"You push open the heavy door to the library, {student_name}. The air is thick with the scent of old parchment.")
+    print(f"Among the endless shelves, you discover a hidden scroll containing a rare, powerful spell related to {fav_subject}!")
+else:
+    print(f"You hesitate for too long, {student_name}, and the hidden door slams on ur face! Loser!")
